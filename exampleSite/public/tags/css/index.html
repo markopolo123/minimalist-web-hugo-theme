@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A monospace-first minimalist Hugo theme">
+<meta name="author" content="Your Name">
+
+<title>Css | Minimalist Web Demo</title>
+<link rel="stylesheet" href="http://localhost:1313/css/main.7ec9ae43435857a90d5376cd433072859b4e68e46cfa3f0ee5b01af85afe4943.css" integrity="sha256-fsmuQ0NYV6kNU3bNQzByhZtOaORs&#43;j8O5bAa&#43;Fr&#43;SUM=">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Minimalist Web Demo">
+
+</head>
+<body>
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <div class="site"><header class="site-header">
+  <div class="container">
+    <h1><a href="http://localhost:1313/">Minimalist Web Demo</a></h1>
+    <nav class="nav" role="navigation" aria-label="main navigation">
+      <a href="/" title="">Home</a>
+      <a href="/posts/" title="">Posts</a>
+      <a href="/about/" title="">About</a>
+      <a href="/tags/" title="">Tags</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main id="main" class="site-main" role="main">
+      <div class="container">
+<div class="list">
+  <header class="article-header">
+    <h1 class="article-title">Css</h1>
+  </header>
+  <article class="list-item">
+    <h2 class="list-item-title">
+      <a href="http://localhost:1313/posts/dark-mode/">Dark Mode Support</a>
+    </h2>
+    <div class="list-item-meta">
+      <time datetime="2025-11-01">2025-11-01</time>
+      <span> • 1 min read</span>
+    </div>
+    <div class="list-item-summary">
+      <p>This theme includes automatic dark mode support that respects your system preferences.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>The theme uses CSS custom properties and the <code>prefers-color-scheme</code> media query to automatically switch between light and dark modes based on your operating system or browser settings.</p>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Try It Out</div>
+Change your system's color scheme preference to see the theme automatically adapt!
+
+</div>
+
+<h2 id="color-palettes">Color Palettes</h2>
+<h3 id="light-mode">Light Mode</h3>
+<ul>
+<li>Background: <code>#ffffff</code></li>
+<li>Text: <code>#000000</code></li>
+<li>Border: <code>#000000</code></li>
+<li>Accent: <code>#0000ff</code></li>
+<li>Secondary: <code>#404040</code></li>
+</ul>
+<h3 id="dark-mode">Dark Mode</h3>
+<ul>
+<li>Background: <code>#000000</code></li>
+<li>Text: <code>#c0c0c0</code></li>
+<li>Border: <code>#808080</code></li>
+<li>Accent: <code>#00ffff</code></li>
+<li>Secondary: <code>#909090</code></li>
+</ul>
+<h2 id="implementation">Implementation</h2>
+<p>No JavaScript is required! The theme uses pure CSS:</p>
+    </div>
+    <div class="taxonomy-terms">
+      <a href="http://localhost:1313/tags/dark-mode" class="taxonomy-term">#dark-mode</a>
+      <a href="http://localhost:1313/tags/css" class="taxonomy-term">#css</a>
+      <a href="http://localhost:1313/tags/features" class="taxonomy-term">#features</a>
+    </div>
+  </article>
+  <article class="list-item">
+    <h2 class="list-item-title">
+      <a href="http://localhost:1313/posts/responsive-design/">Character-Based Responsive Design</a>
+    </h2>
+    <div class="list-item-meta">
+      <time datetime="2025-10-31">2025-10-31</time>
+      <span> • 1 min read</span>
+    </div>
+    <div class="list-item-summary">
+      <p>Unlike traditional responsive design that uses pixel breakpoints, this theme uses character-based measurements for a unique approach to responsiveness.</p>
+<h2 id="the-concept">The Concept</h2>
+<p>Instead of:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">max-width</span><span class="o">:</span> <span class="nt">1200px</span><span class="o">;</span>
+</span></span></code></pre></div><p>We use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">max-width</span><span class="o">:</span> <span class="nt">80ch</span><span class="o">;</span>
+</span></span></code></pre></div><p>The <code>ch</code> unit represents the width of the &ldquo;0&rdquo; character in the current font. This means the layout responds to character count rather than pixel width.</p>
+<h2 id="breakpoints">Breakpoints</h2>
+<p>The theme uses character-based breakpoints:</p>
+<ul>
+<li><strong>Large screens</strong>: 80 characters wide</li>
+<li><strong>Medium screens</strong>: 60 characters wide</li>
+<li><strong>Small screens</strong>: 40 characters wide</li>
+</ul>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Responsive Behavior</div>
+Try resizing your browser window. Notice how the content reflows at character boundaries, maintaining the monospace grid alignment.
+
+</div>
+
+<h2 id="why-this-works">Why This Works</h2>
+<p>For a monospace font, this approach provides:</p>
+    </div>
+    <div class="taxonomy-terms">
+      <a href="http://localhost:1313/tags/responsive" class="taxonomy-term">#responsive</a>
+      <a href="http://localhost:1313/tags/css" class="taxonomy-term">#css</a>
+      <a href="http://localhost:1313/tags/design" class="taxonomy-term">#design</a>
+    </div>
+  </article>
+</div>
+      </div>
+    </main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 Minimalist Web Demo</p>
+      <p>Powered by <a href="https://gohugo.io/">Hugo</a> with <a href="https://github.com/markopolo123/minimalist-web-hugo-theme">Minimalist Web</a> theme</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>

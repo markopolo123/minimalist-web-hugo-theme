@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yrdfgf on Minimalist Web Demo</title>
+    <link>http://localhost:1313/tags/yrdfgf/</link>
+    <description>Recent content in Yrdfgf on Minimalist Web Demo</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/yrdfgf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the Monospace Web</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;p&gt;Welcome to the Minimalist Web Hugo theme! This theme embraces a monospace-first design philosophy inspired by &lt;a href=&#34;https://owickstrom.github.io/the-monospace-web/&#34;&gt;The Monospace Web&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-monospace-first-design&#34;&gt;What is Monospace-First Design?&lt;/h2&gt;&#xA;&lt;p&gt;Instead of using proportional fonts for body text and reserving monospace fonts for code, this theme uses monospace fonts throughout the entire interface.&lt;/p&gt;&#xA;&lt;h3 id=&#34;benefits&#34;&gt;Benefits&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visual consistency&lt;/strong&gt;: Single typeface family eliminates noise&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Character-based grid&lt;/strong&gt;: Layout aligns to character-sized increments&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Terminal aesthetic&lt;/strong&gt;: Evokes retro computing while remaining modern&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code-friendly&lt;/strong&gt;: No jarring font switches between text and code&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;typography-examples&#34;&gt;Typography Examples&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s how different elements look:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

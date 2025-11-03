@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How character-based measurements create unique responsive behavior">
+<meta name="author" content="markopolo123">
+
+<title>Character-Based Responsive Design | Minimalist Web Demo</title>
+<link rel="stylesheet" href="http://localhost:1313/css/main.7ec9ae43435857a90d5376cd433072859b4e68e46cfa3f0ee5b01af85afe4943.css" integrity="sha256-fsmuQ0NYV6kNU3bNQzByhZtOaORs&#43;j8O5bAa&#43;Fr&#43;SUM=">
+<meta property="og:title" content="Character-Based Responsive Design">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/posts/responsive-design/">
+<meta property="og:description" content="How character-based measurements create unique responsive behavior">
+
+</head>
+<body>
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <div class="site"><header class="site-header">
+  <div class="container">
+    <h1><a href="http://localhost:1313/">Minimalist Web Demo</a></h1>
+    <nav class="nav" role="navigation" aria-label="main navigation">
+      <a href="/" title="">Home</a>
+      <a href="/posts/" title="">Posts</a>
+      <a href="/about/" title="">About</a>
+      <a href="/tags/" title="">Tags</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main id="main" class="site-main" role="main">
+      <div class="container">
+<article class="article">
+  <header class="article-header article-header-box">
+    <table class="post-header-table">
+      <tr>
+        <td class="post-title-cell" rowspan="3">
+          <h1 class="article-title">Character-Based Responsive Design</h1>
+          <p class="article-description">How character-based measurements create unique responsive behavior</p>
+        </td>
+        <td class="meta-label">Author</td>
+        <td class="meta-value">markopolo123</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Updated</td>
+        <td class="meta-value">2025-10-31</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Category</td>
+        <td class="meta-value">examples</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Tags</td>
+        <td class="meta-value tags-cell" colspan="2">responsive, css, design</td>
+      </tr>
+    </table>
+  </header>
+  <aside class="toc">
+    <div class="toc-title">Table of Contents</div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-concept">The Concept</a></li>
+    <li><a href="#breakpoints">Breakpoints</a></li>
+    <li><a href="#why-this-works">Why This Works</a></li>
+    <li><a href="#example-layout">Example Layout</a></li>
+    <li><a href="#mobile-experience">Mobile Experience</a></li>
+  </ul>
+</nav>
+  </aside>
+
+  <div class="article-content">
+    <p>Unlike traditional responsive design that uses pixel breakpoints, this theme uses character-based measurements for a unique approach to responsiveness.</p>
+<h2 id="the-concept">The Concept</h2>
+<p>Instead of:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">max-width</span><span class="o">:</span> <span class="nt">1200px</span><span class="o">;</span>
+</span></span></code></pre></div><p>We use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">max-width</span><span class="o">:</span> <span class="nt">80ch</span><span class="o">;</span>
+</span></span></code></pre></div><p>The <code>ch</code> unit represents the width of the &ldquo;0&rdquo; character in the current font. This means the layout responds to character count rather than pixel width.</p>
+<h2 id="breakpoints">Breakpoints</h2>
+<p>The theme uses character-based breakpoints:</p>
+<ul>
+<li><strong>Large screens</strong>: 80 characters wide</li>
+<li><strong>Medium screens</strong>: 60 characters wide</li>
+<li><strong>Small screens</strong>: 40 characters wide</li>
+</ul>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Responsive Behavior</div>
+Try resizing your browser window. Notice how the content reflows at character boundaries, maintaining the monospace grid alignment.
+
+</div>
+
+<h2 id="why-this-works">Why This Works</h2>
+<p>For a monospace font, this approach provides:</p>
+<ol>
+<li><strong>Optimal line length</strong>: Reading research suggests 60-80 characters per line</li>
+<li><strong>Consistent experience</strong>: Same character count across devices</li>
+<li><strong>Grid alignment</strong>: Layout stays aligned to the character grid</li>
+<li><strong>Predictable wrapping</strong>: Text wraps at character boundaries</li>
+</ol>
+<h2 id="example-layout">Example Layout</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.container</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="na">max-width</span><span class="o">:</span> <span class="mi">80</span><span class="kt">ch</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="na">margin</span><span class="o">:</span> <span class="mi">0</span> <span class="ni">auto</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="na">padding</span><span class="o">:</span> <span class="mi">0</span> <span class="mi">2</span><span class="kt">ch</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">@media</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">80</span><span class="kt">ch</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">max-width</span><span class="o">:</span> <span class="mi">60</span><span class="kt">ch</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">@media</span> <span class="p">(</span><span class="na">max-width</span><span class="o">:</span> <span class="mi">60</span><span class="kt">ch</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="na">max-width</span><span class="o">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">padding</span><span class="o">:</span> <span class="mi">0</span> <span class="mi">1</span><span class="kt">ch</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="mobile-experience">Mobile Experience</h2>
+<p>On mobile devices, the theme maintains readability by:</p>
+<ul>
+<li>Reducing character count per line</li>
+<li>Maintaining spacing in character units</li>
+<li>Preserving monospace alignment</li>
+<li>Keeping ASCII art readable</li>
+</ul>
+<p>This creates a cohesive experience across all screen sizes while staying true to the monospace aesthetic.</p>
+
+  </div>
+  <nav class="post-nav" aria-label="Post navigation">
+    <div class="post-nav-next">
+      <a href="http://localhost:1313/posts/dark-mode/" rel="next">Dark Mode Support →</a>
+    </div>
+  </nav>
+</article>
+      </div>
+    </main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 Minimalist Web Demo</p>
+      <p>Powered by <a href="https://gohugo.io/">Hugo</a> with <a href="https://github.com/markopolo123/minimalist-web-hugo-theme">Minimalist Web</a> theme</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>

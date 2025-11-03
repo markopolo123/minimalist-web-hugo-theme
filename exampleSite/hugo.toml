@@ -1,0 +1,63 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Minimalist Web Demo"
+theme = "minimalist-web-hugo-theme"
+
+[params]
+  description = "A monospace-first minimalist Hugo theme"
+  author = "Your Name"
+  showTableOfContents = true
+  showPoweredBy = true
+  mainSections = ["posts", "articles"]
+
+  # Optional: Custom ASCII site logo
+  # siteLogo = """
+  # ╔═══════════════════════╗
+  # ║ MINIMALIST WEB        ║
+  # ╚═══════════════════════╝
+  # """
+
+  footerText = "© 2025 Minimalist Web Demo"
+
+# Main menu
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 4
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Markup configuration
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+    lineNos = false
+    noClasses = false
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]

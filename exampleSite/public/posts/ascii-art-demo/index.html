@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Demonstrating ASCII art and diagram support">
+<meta name="author" content="markopolo123">
+
+<title>ASCII Art and Diagrams | Minimalist Web Demo</title>
+<link rel="stylesheet" href="http://localhost:1313/css/main.7ec9ae43435857a90d5376cd433072859b4e68e46cfa3f0ee5b01af85afe4943.css" integrity="sha256-fsmuQ0NYV6kNU3bNQzByhZtOaORs&#43;j8O5bAa&#43;Fr&#43;SUM=">
+<meta property="og:title" content="ASCII Art and Diagrams">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/posts/ascii-art-demo/">
+<meta property="og:description" content="Demonstrating ASCII art and diagram support">
+
+</head>
+<body>
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <div class="site"><header class="site-header">
+  <div class="container">
+    <h1><a href="http://localhost:1313/">Minimalist Web Demo</a></h1>
+    <nav class="nav" role="navigation" aria-label="main navigation">
+      <a href="/" title="">Home</a>
+      <a href="/posts/" title="">Posts</a>
+      <a href="/about/" title="">About</a>
+      <a href="/tags/" title="">Tags</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main id="main" class="site-main" role="main">
+      <div class="container">
+<article class="article">
+  <header class="article-header article-header-box">
+    <table class="post-header-table">
+      <tr>
+        <td class="post-title-cell" rowspan="3">
+          <h1 class="article-title">ASCII Art and Diagrams</h1>
+          <p class="article-description">Demonstrating ASCII art and diagram support</p>
+        </td>
+        <td class="meta-label">Author</td>
+        <td class="meta-value">markopolo123</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Updated</td>
+        <td class="meta-value">2025-11-02</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Category</td>
+        <td class="meta-value">examples</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Tags</td>
+        <td class="meta-value tags-cell" colspan="2">ascii, diagrams, features</td>
+      </tr>
+    </table>
+  </header>
+  <aside class="toc">
+    <div class="toc-title">Table of Contents</div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#using-the-box-shortcode">Using the Box Shortcode</a></li>
+    <li><a href="#using-the-diagram-shortcode">Using the Diagram Shortcode</a></li>
+    <li><a href="#system-architecture">System Architecture</a></li>
+    <li><a href="#flow-chart-example">Flow Chart Example</a></li>
+    <li><a href="#tables">Tables</a></li>
+    <li><a href="#inline-code">Inline Code</a></li>
+  </ul>
+</nav>
+  </aside>
+
+  <div class="article-content">
+    <p>One of the unique features of this theme is first-class support for ASCII art and box-drawing characters.</p>
+<h2 id="using-the-box-shortcode">Using the Box Shortcode</h2>
+<p>You can create bordered content using the <code>box</code> shortcode:</p>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Important Note</div>
+This is content inside an ASCII-style box.
+It preserves formatting and adds visual emphasis.
+
+</div>
+
+<h2 id="using-the-diagram-shortcode">Using the Diagram Shortcode</h2>
+<p>The <code>diagram</code> shortcode preserves whitespace and character alignment:</p>
+<div class="ascii-diagram">
+┌──────────┐       ┌──────────┐
+│  Client  │──────▶│  Server  │
+└──────────┘       └──────────┘
+     │                   │
+     │    Request        │
+     │──────────────────▶│
+     │                   │
+     │    Response       │
+     │◀──────────────────│
+     │                   │
+</div>
+
+<h2 id="system-architecture">System Architecture</h2>
+<div class="ascii-diagram">
+┌─────────────────────────────────────────┐
+│            Load Balancer                │
+└─────────────┬───────────────────────────┘
+              │
+      ┌───────┼───────┐
+      │       │       │
+      ▼       ▼       ▼
+┌─────────┐ ┌─────────┐ ┌─────────┐
+│  Web    │ │  Web    │ │  Web    │
+│ Server  │ │ Server  │ │ Server  │
+└────┬────┘ └────┬────┘ └────┬────┘
+     │           │           │
+     └───────────┼───────────┘
+                 │
+                 ▼
+         ┌──────────────┐
+         │   Database   │
+         └──────────────┘
+</div>
+
+<h2 id="flow-chart-example">Flow Chart Example</h2>
+<div class="ascii-diagram">
+         START
+           │
+           ▼
+    ┌─────────────┐
+    │  Read Input │
+    └──────┬──────┘
+           │
+           ▼
+    ┌─────────────┐      YES
+    │  Valid?     │──────────┐
+    └──────┬──────┘          │
+           │ NO               ▼
+           │          ┌──────────────┐
+           │          │   Process    │
+           │          └──────┬───────┘
+           │                 │
+           │                 ▼
+           │          ┌──────────────┐
+           └─────────▶│  Show Error  │
+                      └──────┬───────┘
+                             │
+                             ▼
+                           END
+</div>
+
+<h2 id="tables">Tables</h2>
+<p>Tables also maintain the monospace alignment:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Supported</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Dark Mode</td>
+          <td>Yes</td>
+          <td>Automatic detection</td>
+      </tr>
+      <tr>
+          <td>ASCII Art</td>
+          <td>Yes</td>
+          <td>Full support</td>
+      </tr>
+      <tr>
+          <td>Responsive</td>
+          <td>Yes</td>
+          <td>Character-based</td>
+      </tr>
+      <tr>
+          <td>JavaScript</td>
+          <td>No</td>
+          <td>Not required</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="inline-code">Inline Code</h2>
+<p>You can also use <code>inline code</code> within paragraphs, and it maintains the same monospace feel as the rest of the text.</p>
+<p>The theme ensures that box-drawing characters like ┌─┐│└┘├┤┬┴┼ render consistently across different browsers and operating systems.</p>
+
+  </div>
+  <nav class="post-nav" aria-label="Post navigation">
+    <div class="post-nav-prev">
+      <a href="http://localhost:1313/posts/dark-mode/" rel="prev">← Dark Mode Support</a>
+    </div>
+    <div class="post-nav-next">
+      <a href="http://localhost:1313/posts/welcome/" rel="next">Welcome to the Monospace Web →</a>
+    </div>
+  </nav>
+</article>
+      </div>
+    </main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 Minimalist Web Demo</p>
+      <p>Powered by <a href="https://gohugo.io/">Hugo</a> with <a href="https://github.com/markopolo123/minimalist-web-hugo-theme">Minimalist Web</a> theme</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>

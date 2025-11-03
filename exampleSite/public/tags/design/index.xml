@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Minimalist Web Demo</title>
+    <link>http://localhost:1313/tags/design/</link>
+    <description>Recent content in Design on Minimalist Web Demo</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the Monospace Web</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;p&gt;Welcome to the Minimalist Web Hugo theme! This theme embraces a monospace-first design philosophy inspired by &lt;a href=&#34;https://owickstrom.github.io/the-monospace-web/&#34;&gt;The Monospace Web&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-monospace-first-design&#34;&gt;What is Monospace-First Design?&lt;/h2&gt;&#xA;&lt;p&gt;Instead of using proportional fonts for body text and reserving monospace fonts for code, this theme uses monospace fonts throughout the entire interface.&lt;/p&gt;&#xA;&lt;h3 id=&#34;benefits&#34;&gt;Benefits&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visual consistency&lt;/strong&gt;: Single typeface family eliminates noise&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Character-based grid&lt;/strong&gt;: Layout aligns to character-sized increments&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Terminal aesthetic&lt;/strong&gt;: Evokes retro computing while remaining modern&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code-friendly&lt;/strong&gt;: No jarring font switches between text and code&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;typography-examples&#34;&gt;Typography Examples&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s how different elements look:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Character-Based Responsive Design</title>
+      <link>http://localhost:1313/posts/responsive-design/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/responsive-design/</guid>
+      <description>&lt;p&gt;Unlike traditional responsive design that uses pixel breakpoints, this theme uses character-based measurements for a unique approach to responsiveness.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-concept&#34;&gt;The Concept&lt;/h2&gt;&#xA;&lt;p&gt;Instead of:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;max-width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1200px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We use:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;max-width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;80ch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;ch&lt;/code&gt; unit represents the width of the &amp;ldquo;0&amp;rdquo; character in the current font. This means the layout responds to character count rather than pixel width.&lt;/p&gt;&#xA;&lt;h2 id=&#34;breakpoints&#34;&gt;Breakpoints&lt;/h2&gt;&#xA;&lt;p&gt;The theme uses character-based breakpoints:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Large screens&lt;/strong&gt;: 80 characters wide&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Medium screens&lt;/strong&gt;: 60 characters wide&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Small screens&lt;/strong&gt;: 40 characters wide&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;div class=&#34;ascii-box&#34;&gt;&#xA;  &lt;div class=&#34;ascii-box-title&#34;&gt;Responsive Behavior&lt;/div&gt;&#xA;Try resizing your browser window. Notice how the content reflows at character boundaries, maintaining the monospace grid alignment.&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;why-this-works&#34;&gt;Why This Works&lt;/h2&gt;&#xA;&lt;p&gt;For a monospace font, this approach provides:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
