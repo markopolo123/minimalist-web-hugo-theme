@@ -1,0 +1,32 @@
+- id: readingTime
+  translation: "{{ .Count }} min read"
+
+- id: wordCount
+  translation: "{{ .Count }} words"
+
+- id: pageNotFound
+  translation: "Page not found"
+
+- id: backToHome
+  translation: "Back to home"
+
+- id: tags
+  translation: "Tags"
+
+- id: categories
+  translation: "Categories"
+
+- id: tableOfContents
+  translation: "Table of Contents"
+
+- id: newer
+  translation: "Newer"
+
+- id: older
+  translation: "Older"
+
+- id: prev
+  translation: "Previous"
+
+- id: next
+  translation: "Next"

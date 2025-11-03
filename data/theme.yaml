@@ -1,0 +1,31 @@
+# Theme default configuration
+# Users can override these in their site's hugo.toml
+
+typography:
+  fontFamily: "monospace"
+  fontSize: "16px"
+  lineHeight: "1.5"
+
+layout:
+  maxWidth: "80ch"
+  contentPadding: "2ch"
+
+features:
+  showTableOfContents: true
+  enableASCIIBoxes: true
+  autoDarkMode: true
+  showPoweredBy: true
+
+colors:
+  light:
+    background: "#ffffff"
+    text: "#000000"
+    border: "#000000"
+    accent: "#0000ff"
+    secondaryText: "#404040"
+  dark:
+    background: "#000000"
+    text: "#c0c0c0"
+    border: "#808080"
+    accent: "#00ffff"
+    secondaryText: "#909090"

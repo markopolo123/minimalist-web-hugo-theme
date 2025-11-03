@@ -1,0 +1,17 @@
+// Main SCSS entry point
+// Imports all modular stylesheets in correct order
+
+// 1. Reset (must come first)
+@import "reset";
+
+// 2. Core monospace design system (variables and typography)
+@import "monospace";
+
+// 3. Layout and grid
+@import "layout";
+
+// 4. Components
+@import "components";
+
+// 5. Dark mode (must come last to override properly)
+@import "dark-mode";

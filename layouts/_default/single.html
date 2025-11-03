@@ -1,0 +1,70 @@
+{{- define "main" }}
+<article class="article">
+  <header class="article-header article-header-box">
+    <table class="post-header-table">
+      {{- $rowspan := 2 }}
+      {{- if .Params.categories }}
+        {{- $rowspan = 3 }}
+      {{- end }}
+      <tr>
+        <td class="post-title-cell" rowspan="{{ $rowspan }}">
+          <h1 class="article-title">{{ .Title }}</h1>
+          {{- if .Description }}
+          <p class="article-description">{{ .Description }}</p>
+          {{- end }}
+        </td>
+        {{- if .Params.author }}
+        <td class="meta-label">Author</td>
+        <td class="meta-value">{{ .Params.author }}</td>
+        {{- end }}
+      </tr>
+      <tr>
+        {{- if .Date }}
+        <td class="meta-label">Updated</td>
+        <td class="meta-value">{{ .Date.Format "2006-01-02" }}</td>
+        {{- end }}
+      </tr>
+      {{- with .Params.categories }}
+      <tr>
+        <td class="meta-label">Category</td>
+        <td class="meta-value">{{ index . 0 }}</td>
+      </tr>
+      {{- end }}
+      {{- with .Params.tags }}
+      <tr>
+        <td class="meta-label">Tags</td>
+        <td class="meta-value tags-cell" colspan="2">{{ delimit . ", " }}</td>
+      </tr>
+      {{- end }}
+    </table>
+  </header>
+
+  {{- if and .Site.Params.showTableOfContents .TableOfContents }}
+  {{- if gt (len .TableOfContents) 50 }}
+  <aside class="toc">
+    <div class="toc-title">Table of Contents</div>
+    {{ .TableOfContents }}
+  </aside>
+  {{- end }}
+  {{- end }}
+
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+
+  {{- if or .PrevInSection .NextInSection }}
+  <nav class="post-nav" aria-label="Post navigation">
+    {{- if .PrevInSection }}
+    <div class="post-nav-prev">
+      <a href="{{ .PrevInSection.Permalink }}" rel="prev">← {{ .PrevInSection.Title }}</a>
+    </div>
+    {{- end }}
+    {{- if .NextInSection }}
+    <div class="post-nav-next">
+      <a href="{{ .NextInSection.Permalink }}" rel="next">{{ .NextInSection.Title }} →</a>
+    </div>
+    {{- end }}
+  </nav>
+  {{- end }}
+</article>
+{{- end }}

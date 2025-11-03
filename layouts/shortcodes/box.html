@@ -1,0 +1,7 @@
+{{- $title := .Get "title" }}
+<div class="ascii-box">
+  {{- if $title }}
+  <div class="ascii-box-title">{{ $title }}</div>
+  {{- end }}
+  {{- .Inner | safeHTML }}
+</div>

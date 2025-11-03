@@ -1,0 +1,63 @@
+{{- define "main" }}
+<div class="list">
+  <header class="article-header">
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{- if .Description }}
+    <p>{{ .Description }}</p>
+    {{- end }}
+  </header>
+
+  {{- $pages := .Pages }}
+  {{- if .IsHome }}
+    {{- $pages = where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{- end }}
+
+  {{- range $pages }}
+  <article class="list-item">
+    <h2 class="list-item-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <div class="list-item-meta">
+      {{- if .Date }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{- end }}
+      {{- if .ReadingTime }}
+      <span> • {{ .ReadingTime }} min read</span>
+      {{- end }}
+    </div>
+    {{- if .Summary }}
+    <div class="list-item-summary">
+      {{ .Summary }}
+    </div>
+    {{- end }}
+    {{- if or .Params.tags .Params.categories }}
+    <div class="taxonomy-terms">
+      {{- with .Params.tags }}
+      {{- range . }}
+      <a href="{{ "tags" | absURL }}/{{ . | urlize }}" class="taxonomy-term">#{{ . }}</a>
+      {{- end }}
+      {{- end }}
+    </div>
+    {{- end }}
+  </article>
+  {{- end }}
+</div>
+
+{{- if .Paginator }}
+{{- if gt .Paginator.TotalPages 1 }}
+<nav class="pagination" aria-label="Pagination">
+  {{- if .Paginator.HasPrev }}
+  <a href="{{ .Paginator.Prev.URL }}" class="pagination-link" rel="prev">← Newer</a>
+  {{- else }}
+  <span></span>
+  {{- end }}
+  <span>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+  {{- if .Paginator.HasNext }}
+  <a href="{{ .Paginator.Next.URL }}" class="pagination-link" rel="next">Older →</a>
+  {{- else }}
+  <span></span>
+  {{- end }}
+</nav>
+{{- end }}
+{{- end }}
+{{- end }}

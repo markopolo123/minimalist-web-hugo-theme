@@ -1,0 +1,211 @@
+// Reusable components
+// ASCII boxes, diagrams, and other monospace-specific components
+
+// ASCII box component
+.ascii-box {
+  border: 2px solid var(--border-color);
+  padding: 1ch;
+  margin: 1rem 0;
+  white-space: pre-wrap;
+  font-family: var(--font-mono);
+}
+
+.ascii-box-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.25rem;
+}
+
+// ASCII diagram component
+.ascii-diagram {
+  white-space: pre;
+  overflow-x: auto;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 2px solid var(--border-color);
+  font-family: var(--font-mono);
+  line-height: 1;
+
+  // Ensure consistent character width
+  font-variant-ligatures: none;
+  font-feature-settings: normal;
+}
+
+// Code block with title
+.code-block {
+  margin-bottom: 1rem;
+}
+
+.code-block-title {
+  background-color: var(--bg-color);
+  border: 2px solid var(--border-color);
+  border-bottom: none;
+  padding: 0.5ch 1ch;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.code-block pre {
+  margin-top: 0;
+  border-top: none;
+}
+
+// Callout boxes
+.callout {
+  border: 2px solid var(--border-color);
+  padding: 1rem;
+  margin: 1rem 0;
+
+  &::before {
+    content: "[ ! ]";
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.callout-info {
+  &::before {
+    content: "[ i ]";
+  }
+}
+
+.callout-warning {
+  &::before {
+    content: "[ ! ]";
+  }
+}
+
+.callout-error {
+  &::before {
+    content: "[ X ]";
+  }
+}
+
+// Table of contents
+.toc {
+  border: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.toc-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.toc-list {
+  margin: 0;
+  padding-left: 2ch;
+}
+
+.toc-item {
+  margin-bottom: 0.25rem;
+}
+
+.toc-link {
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+  }
+}
+
+// Monospace table (enhanced alignment)
+.monospace-table {
+  font-family: var(--font-mono);
+  border: 2px solid var(--border-color);
+  margin: 1rem 0;
+
+  th, td {
+    font-family: var(--font-mono);
+    padding: 0.5ch 1ch;
+  }
+}
+
+// ASCII art preservation
+.ascii-art {
+  white-space: pre;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  line-height: 1;
+  margin: 1rem 0;
+
+  // Prevent font substitution
+  font-variant-ligatures: none;
+  font-feature-settings: normal;
+}
+
+// Preserve box-drawing characters
+.box-drawing {
+  font-family: var(--font-mono);
+  white-space: pre;
+  line-height: 1;
+
+  // Ensure proper rendering of box characters
+  font-variant-ligatures: none;
+}
+
+// Site logo/header ASCII
+.site-logo {
+  white-space: pre;
+  font-family: var(--font-mono);
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+// Footer content
+.footer-content {
+  text-align: center;
+  color: var(--secondary-text);
+  font-size: 0.875rem;
+}
+
+// Post navigation (prev/next)
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.post-nav-prev,
+.post-nav-next {
+  flex: 1;
+
+  a {
+    display: block;
+    padding: 0.25rem 1ch;
+
+    &:hover {
+      background-color: var(--accent-color);
+      color: var(--bg-color);
+    }
+  }
+}
+
+.post-nav-next {
+  text-align: right;
+}
+
+// Tags/categories
+.taxonomy-terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1ch;
+  margin-top: 1rem;
+}
+
+.taxonomy-term {
+  border: 2px solid var(--border-color);
+  padding: 0.1rem 1ch;
+  font-size: 0.875rem;
+
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+  }
+}

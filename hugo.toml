@@ -1,0 +1,17 @@
+name = "Minimalist Web"
+license = "MIT"
+licenselink = "https://github.com/markopolo123/minimalist-web-hugo-theme/blob/main/LICENSE"
+description = "A monospace-first minimalist Hugo theme inspired by The Monospace Web"
+homepage = "https://github.com/markopolo123/minimalist-web-hugo-theme"
+tags = ["minimal", "monospace", "typography", "retro", "blog"]
+features = ["responsive", "ascii-art", "minimalist", "accessibility"]
+min_version = "0.140.0"
+
+[author]
+  name = "markopolo123"
+  homepage = "https://github.com/markopolo123"
+
+[original]
+  name = "Oskar Wickström"
+  homepage = "https://owickstrom.github.io/"
+  repo = "https://github.com/owickstrom/the-monospace-web"
