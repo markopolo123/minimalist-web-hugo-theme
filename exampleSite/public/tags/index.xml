@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Minimalist Web Demo</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Minimalist Web Demo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design</title>
-      <link>http://localhost:1313/tags/design/</link>
+      <link>/tags/design/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/design/</guid>
+      <guid>/tags/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Intro</title>
-      <link>http://localhost:1313/tags/intro/</link>
+      <link>/tags/intro/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/intro/</guid>
+      <guid>/tags/intro/</guid>
       <description></description>
     </item>
     <item>
       <title>Typography</title>
-      <link>http://localhost:1313/tags/typography/</link>
+      <link>/tags/typography/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/typography/</guid>
+      <guid>/tags/typography/</guid>
       <description></description>
     </item>
     <item>
       <title>Yrdfgf</title>
-      <link>http://localhost:1313/tags/yrdfgf/</link>
+      <link>/tags/yrdfgf/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/yrdfgf/</guid>
+      <guid>/tags/yrdfgf/</guid>
       <description></description>
     </item>
     <item>
       <title>Ascii</title>
-      <link>http://localhost:1313/tags/ascii/</link>
+      <link>/tags/ascii/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ascii/</guid>
+      <guid>/tags/ascii/</guid>
       <description></description>
     </item>
     <item>
       <title>Diagrams</title>
-      <link>http://localhost:1313/tags/diagrams/</link>
+      <link>/tags/diagrams/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/diagrams/</guid>
+      <guid>/tags/diagrams/</guid>
       <description></description>
     </item>
     <item>
       <title>Features</title>
-      <link>http://localhost:1313/tags/features/</link>
+      <link>/tags/features/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/features/</guid>
+      <guid>/tags/features/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>http://localhost:1313/tags/css/</link>
+      <link>/tags/css/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/css/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Dark-Mode</title>
-      <link>http://localhost:1313/tags/dark-mode/</link>
+      <link>/tags/dark-mode/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dark-mode/</guid>
+      <guid>/tags/dark-mode/</guid>
       <description></description>
     </item>
     <item>
       <title>Responsive</title>
-      <link>http://localhost:1313/tags/responsive/</link>
+      <link>/tags/responsive/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/responsive/</guid>
+      <guid>/tags/responsive/</guid>
       <description></description>
     </item>
   </channel>

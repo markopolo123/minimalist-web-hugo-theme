@@ -73,7 +73,7 @@ git clone https://github.com/markopolo123/minimalist-web-hugo-theme.git
 ### Basic Configuration
 
 ```toml
-baseURL = "https://example.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Your Site Title"
 theme = "minimalist-web-hugo-theme"

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dark-Mode on Minimalist Web Demo</title>
-    <link>http://localhost:1313/tags/dark-mode/</link>
+    <link>/tags/dark-mode/</link>
     <description>Recent content in Dark-Mode on Minimalist Web Demo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dark-mode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/dark-mode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dark Mode Support</title>
-      <link>http://localhost:1313/posts/dark-mode/</link>
+      <link>/posts/dark-mode/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dark-mode/</guid>
+      <guid>/posts/dark-mode/</guid>
       <description>&lt;p&gt;This theme includes automatic dark mode support that respects your system preferences.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;p&gt;The theme uses CSS custom properties and the &lt;code&gt;prefers-color-scheme&lt;/code&gt; media query to automatically switch between light and dark modes based on your operating system or browser settings.&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;ascii-box&#34;&gt;&#xA;  &lt;div class=&#34;ascii-box-title&#34;&gt;Try It Out&lt;/div&gt;&#xA;Change your system&#39;s color scheme preference to see the theme automatically adapt!&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;color-palettes&#34;&gt;Color Palettes&lt;/h2&gt;&#xA;&lt;h3 id=&#34;light-mode&#34;&gt;Light Mode&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Background: &lt;code&gt;#ffffff&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Text: &lt;code&gt;#000000&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Border: &lt;code&gt;#000000&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Accent: &lt;code&gt;#0000ff&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Secondary: &lt;code&gt;#404040&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;dark-mode&#34;&gt;Dark Mode&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Background: &lt;code&gt;#000000&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Text: &lt;code&gt;#c0c0c0&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Border: &lt;code&gt;#808080&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Accent: &lt;code&gt;#00ffff&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Secondary: &lt;code&gt;#909090&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;&#xA;&lt;p&gt;No JavaScript is required! The theme uses pure CSS:&lt;/p&gt;</description>
     </item>
   </channel>

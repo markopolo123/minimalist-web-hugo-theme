@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Responsive on Minimalist Web Demo</title>
-    <link>http://localhost:1313/tags/responsive/</link>
+    <link>/tags/responsive/</link>
     <description>Recent content in Responsive on Minimalist Web Demo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Character-Based Responsive Design</title>
-      <link>http://localhost:1313/posts/responsive-design/</link>
+      <link>/posts/responsive-design/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/responsive-design/</guid>
+      <guid>/posts/responsive-design/</guid>
       <description>&lt;p&gt;Unlike traditional responsive design that uses pixel breakpoints, this theme uses character-based measurements for a unique approach to responsiveness.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-concept&#34;&gt;The Concept&lt;/h2&gt;&#xA;&lt;p&gt;Instead of:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;max-width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1200px&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We use:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;max-width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;80ch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;ch&lt;/code&gt; unit represents the width of the &amp;ldquo;0&amp;rdquo; character in the current font. This means the layout responds to character count rather than pixel width.&lt;/p&gt;&#xA;&lt;h2 id=&#34;breakpoints&#34;&gt;Breakpoints&lt;/h2&gt;&#xA;&lt;p&gt;The theme uses character-based breakpoints:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Large screens&lt;/strong&gt;: 80 characters wide&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Medium screens&lt;/strong&gt;: 60 characters wide&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Small screens&lt;/strong&gt;: 40 characters wide&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;div class=&#34;ascii-box&#34;&gt;&#xA;  &lt;div class=&#34;ascii-box-title&#34;&gt;Responsive Behavior&lt;/div&gt;&#xA;Try resizing your browser window. Notice how the content reflows at character boundaries, maintaining the monospace grid alignment.&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;why-this-works&#34;&gt;Why This Works&lt;/h2&gt;&#xA;&lt;p&gt;For a monospace font, this approach provides:&lt;/p&gt;</description>
     </item>
   </channel>
