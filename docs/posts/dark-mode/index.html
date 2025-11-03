@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Automatic dark mode based on system preferences">
+<meta name="author" content="markopolo123">
+
+<title>Dark Mode Support | Minimalist Web Demo</title>
+<link rel="stylesheet" href="https://example.com/css/main.7ec9ae43435857a90d5376cd433072859b4e68e46cfa3f0ee5b01af85afe4943.css" integrity="sha256-fsmuQ0NYV6kNU3bNQzByhZtOaORs&#43;j8O5bAa&#43;Fr&#43;SUM=">
+<meta property="og:title" content="Dark Mode Support">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://example.com/posts/dark-mode/">
+<meta property="og:description" content="Automatic dark mode based on system preferences">
+
+</head>
+<body>
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <div class="site"><header class="site-header">
+  <div class="container">
+    <h1><a href="https://example.com/">Minimalist Web Demo</a></h1>
+    <nav class="nav" role="navigation" aria-label="main navigation">
+      <a href="/" title="">Home</a>
+      <a href="/posts/" title="">Posts</a>
+      <a href="/about/" title="">About</a>
+      <a href="/tags/" title="">Tags</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main id="main" class="site-main" role="main">
+      <div class="container">
+<article class="article">
+  <header class="article-header article-header-box">
+    <table class="post-header-table">
+      <tr>
+        <td class="post-title-cell" rowspan="3">
+          <h1 class="article-title">Dark Mode Support</h1>
+          <p class="article-description">Automatic dark mode based on system preferences</p>
+        </td>
+        <td class="meta-label">Author</td>
+        <td class="meta-value">markopolo123</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Updated</td>
+        <td class="meta-value">2025-11-01</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Category</td>
+        <td class="meta-value">examples</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Tags</td>
+        <td class="meta-value tags-cell" colspan="2">dark-mode, css, features</td>
+      </tr>
+    </table>
+  </header>
+  <aside class="toc">
+    <div class="toc-title">Table of Contents</div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-it-works">How It Works</a></li>
+    <li><a href="#color-palettes">Color Palettes</a>
+      <ul>
+        <li><a href="#light-mode">Light Mode</a></li>
+        <li><a href="#dark-mode">Dark Mode</a></li>
+      </ul>
+    </li>
+    <li><a href="#implementation">Implementation</a></li>
+    <li><a href="#accessibility">Accessibility</a></li>
+    <li><a href="#ascii-art-in-dark-mode">ASCII Art in Dark Mode</a></li>
+  </ul>
+</nav>
+  </aside>
+
+  <div class="article-content">
+    <p>This theme includes automatic dark mode support that respects your system preferences.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>The theme uses CSS custom properties and the <code>prefers-color-scheme</code> media query to automatically switch between light and dark modes based on your operating system or browser settings.</p>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Try It Out</div>
+Change your system's color scheme preference to see the theme automatically adapt!
+
+</div>
+
+<h2 id="color-palettes">Color Palettes</h2>
+<h3 id="light-mode">Light Mode</h3>
+<ul>
+<li>Background: <code>#ffffff</code></li>
+<li>Text: <code>#000000</code></li>
+<li>Border: <code>#000000</code></li>
+<li>Accent: <code>#0000ff</code></li>
+<li>Secondary: <code>#404040</code></li>
+</ul>
+<h3 id="dark-mode">Dark Mode</h3>
+<ul>
+<li>Background: <code>#000000</code></li>
+<li>Text: <code>#c0c0c0</code></li>
+<li>Border: <code>#808080</code></li>
+<li>Accent: <code>#00ffff</code></li>
+<li>Secondary: <code>#909090</code></li>
+</ul>
+<h2 id="implementation">Implementation</h2>
+<p>No JavaScript is required! The theme uses pure CSS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">@</span><span class="k">media</span> <span class="o">(</span><span class="nt">prefers-color-scheme</span><span class="o">:</span> <span class="nt">dark</span><span class="o">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">--bg-color</span><span class="p">:</span> <span class="mh">#000000</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">--text-color</span><span class="p">:</span> <span class="mh">#c0c0c0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">--border-color</span><span class="p">:</span> <span class="mh">#808080</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">--accent-color</span><span class="p">:</span> <span class="mh">#00ffff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="accessibility">Accessibility</h2>
+<p>Both color schemes maintain WCAG AA contrast ratios for readability. The monospace font ensures consistent character spacing in both modes.</p>
+<h2 id="ascii-art-in-dark-mode">ASCII Art in Dark Mode</h2>
+<p>The box-drawing characters work great in both modes:</p>
+<div class="ascii-diagram">
+┏━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  Dark Mode Ready       ┃
+┃  ✓ Automatic switching ┃
+┃  ✓ No JavaScript       ┃
+┃  ✓ System preference   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━┛
+</div>
+
+<p>The theme ensures all elements—text, borders, code blocks, and ASCII art—are properly styled for both light and dark modes.</p>
+
+  </div>
+  <nav class="post-nav" aria-label="Post navigation">
+    <div class="post-nav-prev">
+      <a href="https://example.com/posts/responsive-design/" rel="prev">← Character-Based Responsive Design</a>
+    </div>
+    <div class="post-nav-next">
+      <a href="https://example.com/posts/ascii-art-demo/" rel="next">ASCII Art and Diagrams →</a>
+    </div>
+  </nav>
+</article>
+      </div>
+    </main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 Minimalist Web Demo</p>
+      <p>Powered by <a href="https://gohugo.io/">Hugo</a> with <a href="https://github.com/markopolo123/minimalist-web-hugo-theme">Minimalist Web</a> theme</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>

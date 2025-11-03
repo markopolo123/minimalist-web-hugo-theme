@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A monospace-first minimalist Hugo theme">
+<meta name="author" content="Your Name">
+
+<title>Posts | Minimalist Web Demo</title>
+<link rel="stylesheet" href="https://example.com/css/main.7ec9ae43435857a90d5376cd433072859b4e68e46cfa3f0ee5b01af85afe4943.css" integrity="sha256-fsmuQ0NYV6kNU3bNQzByhZtOaORs&#43;j8O5bAa&#43;Fr&#43;SUM=">
+
+</head>
+<body>
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <div class="site"><header class="site-header">
+  <div class="container">
+    <h1><a href="https://example.com/">Minimalist Web Demo</a></h1>
+    <nav class="nav" role="navigation" aria-label="main navigation">
+      <a href="/" title="">Home</a>
+      <a href="/posts/" title="">Posts</a>
+      <a href="/about/" title="">About</a>
+      <a href="/tags/" title="">Tags</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main id="main" class="site-main" role="main">
+      <div class="container">
+<div class="list">
+  <header class="article-header">
+    <h1 class="article-title">Posts</h1>
+  </header>
+  <article class="list-item">
+    <h2 class="list-item-title">
+      <a href="https://example.com/posts/welcome/">Welcome to the Monospace Web</a>
+    </h2>
+    <div class="list-item-meta">
+      <time datetime="2025-11-03">2025-11-03</time>
+      <span> • 1 min read</span>
+    </div>
+    <div class="list-item-summary">
+      <p>Welcome to the Minimalist Web Hugo theme! This theme embraces a monospace-first design philosophy inspired by <a href="https://owickstrom.github.io/the-monospace-web/">The Monospace Web</a>.</p>
+<h2 id="what-is-monospace-first-design">What is Monospace-First Design?</h2>
+<p>Instead of using proportional fonts for body text and reserving monospace fonts for code, this theme uses monospace fonts throughout the entire interface.</p>
+<h3 id="benefits">Benefits</h3>
+<ul>
+<li><strong>Visual consistency</strong>: Single typeface family eliminates noise</li>
+<li><strong>Character-based grid</strong>: Layout aligns to character-sized increments</li>
+<li><strong>Terminal aesthetic</strong>: Evokes retro computing while remaining modern</li>
+<li><strong>Code-friendly</strong>: No jarring font switches between text and code</li>
+</ul>
+<h2 id="typography-examples">Typography Examples</h2>
+<p>Here&rsquo;s how different elements look:</p>
+    </div>
+    <div class="taxonomy-terms">
+      <a href="https://example.com/tags/intro" class="taxonomy-term">#intro</a>
+      <a href="https://example.com/tags/design" class="taxonomy-term">#design</a>
+      <a href="https://example.com/tags/typography" class="taxonomy-term">#typography</a>
+      <a href="https://example.com/tags/yrdfgf" class="taxonomy-term">#yrdfgf</a>
+    </div>
+  </article>
+  <article class="list-item">
+    <h2 class="list-item-title">
+      <a href="https://example.com/posts/ascii-art-demo/">ASCII Art and Diagrams</a>
+    </h2>
+    <div class="list-item-meta">
+      <time datetime="2025-11-02">2025-11-02</time>
+      <span> • 2 min read</span>
+    </div>
+    <div class="list-item-summary">
+      <p>One of the unique features of this theme is first-class support for ASCII art and box-drawing characters.</p>
+<h2 id="using-the-box-shortcode">Using the Box Shortcode</h2>
+<p>You can create bordered content using the <code>box</code> shortcode:</p>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Important Note</div>
+This is content inside an ASCII-style box.
+It preserves formatting and adds visual emphasis.
+
+</div>
+
+<h2 id="using-the-diagram-shortcode">Using the Diagram Shortcode</h2>
+<p>The <code>diagram</code> shortcode preserves whitespace and character alignment:</p>
+<div class="ascii-diagram">
+┌──────────┐       ┌──────────┐
+│  Client  │──────▶│  Server  │
+└──────────┘       └──────────┘
+     │                   │
+     │    Request        │
+     │──────────────────▶│
+     │                   │
+     │    Response       │
+     │◀──────────────────│
+     │                   │
+</div>
+
+<h2 id="system-architecture">System Architecture</h2>
+<div class="ascii-diagram">
+┌─────────────────────────────────────────┐
+│            Load Balancer                │
+└─────────────┬───────────────────────────┘
+              │
+      ┌───────┼───────┐
+      │       │       │
+      ▼       ▼       ▼
+┌─────────┐ ┌─────────┐ ┌─────────┐
+│  Web    │ │  Web    │ │  Web    │
+│ Server  │ │ Server  │ │ Server  │
+└────┬────┘ └────┬────┘ └────┬────┘
+     │           │           │
+     └───────────┼───────────┘
+                 │
+                 ▼
+         ┌──────────────┐
+         │   Database   │
+         └──────────────┘
+</div>
+
+<h2 id="flow-chart-example">Flow Chart Example</h2>
+<div class="ascii-diagram">
+         START
+           │
+           ▼
+    ┌─────────────┐
+    │  Read Input │
+    └──────┬──────┘
+           │
+           ▼
+    ┌─────────────┐      YES
+    │  Valid?     │──────────┐
+    └──────┬──────┘          │
+           │ NO               ▼
+           │          ┌──────────────┐
+           │          │   Process    │
+           │          └──────┬───────┘
+           │                 │
+           │                 ▼
+           │          ┌──────────────┐
+           └─────────▶│  Show Error  │
+                      └──────┬───────┘
+                             │
+                             ▼
+                           END
+</div>
+
+<h2 id="tables">Tables</h2>
+<p>Tables also maintain the monospace alignment:</p>
+    </div>
+    <div class="taxonomy-terms">
+      <a href="https://example.com/tags/ascii" class="taxonomy-term">#ascii</a>
+      <a href="https://example.com/tags/diagrams" class="taxonomy-term">#diagrams</a>
+      <a href="https://example.com/tags/features" class="taxonomy-term">#features</a>
+    </div>
+  </article>
+  <article class="list-item">
+    <h2 class="list-item-title">
+      <a href="https://example.com/posts/dark-mode/">Dark Mode Support</a>
+    </h2>
+    <div class="list-item-meta">
+      <time datetime="2025-11-01">2025-11-01</time>
+      <span> • 1 min read</span>
+    </div>
+    <div class="list-item-summary">
+      <p>This theme includes automatic dark mode support that respects your system preferences.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>The theme uses CSS custom properties and the <code>prefers-color-scheme</code> media query to automatically switch between light and dark modes based on your operating system or browser settings.</p>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Try It Out</div>
+Change your system's color scheme preference to see the theme automatically adapt!
+
+</div>
+
+<h2 id="color-palettes">Color Palettes</h2>
+<h3 id="light-mode">Light Mode</h3>
+<ul>
+<li>Background: <code>#ffffff</code></li>
+<li>Text: <code>#000000</code></li>
+<li>Border: <code>#000000</code></li>
+<li>Accent: <code>#0000ff</code></li>
+<li>Secondary: <code>#404040</code></li>
+</ul>
+<h3 id="dark-mode">Dark Mode</h3>
+<ul>
+<li>Background: <code>#000000</code></li>
+<li>Text: <code>#c0c0c0</code></li>
+<li>Border: <code>#808080</code></li>
+<li>Accent: <code>#00ffff</code></li>
+<li>Secondary: <code>#909090</code></li>
+</ul>
+<h2 id="implementation">Implementation</h2>
+<p>No JavaScript is required! The theme uses pure CSS:</p>
+    </div>
+    <div class="taxonomy-terms">
+      <a href="https://example.com/tags/dark-mode" class="taxonomy-term">#dark-mode</a>
+      <a href="https://example.com/tags/css" class="taxonomy-term">#css</a>
+      <a href="https://example.com/tags/features" class="taxonomy-term">#features</a>
+    </div>
+  </article>
+  <article class="list-item">
+    <h2 class="list-item-title">
+      <a href="https://example.com/posts/responsive-design/">Character-Based Responsive Design</a>
+    </h2>
+    <div class="list-item-meta">
+      <time datetime="2025-10-31">2025-10-31</time>
+      <span> • 1 min read</span>
+    </div>
+    <div class="list-item-summary">
+      <p>Unlike traditional responsive design that uses pixel breakpoints, this theme uses character-based measurements for a unique approach to responsiveness.</p>
+<h2 id="the-concept">The Concept</h2>
+<p>Instead of:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">max-width</span><span class="o">:</span> <span class="nt">1200px</span><span class="o">;</span>
+</span></span></code></pre></div><p>We use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">max-width</span><span class="o">:</span> <span class="nt">80ch</span><span class="o">;</span>
+</span></span></code></pre></div><p>The <code>ch</code> unit represents the width of the &ldquo;0&rdquo; character in the current font. This means the layout responds to character count rather than pixel width.</p>
+<h2 id="breakpoints">Breakpoints</h2>
+<p>The theme uses character-based breakpoints:</p>
+<ul>
+<li><strong>Large screens</strong>: 80 characters wide</li>
+<li><strong>Medium screens</strong>: 60 characters wide</li>
+<li><strong>Small screens</strong>: 40 characters wide</li>
+</ul>
+
+<div class="ascii-box">
+  <div class="ascii-box-title">Responsive Behavior</div>
+Try resizing your browser window. Notice how the content reflows at character boundaries, maintaining the monospace grid alignment.
+
+</div>
+
+<h2 id="why-this-works">Why This Works</h2>
+<p>For a monospace font, this approach provides:</p>
+    </div>
+    <div class="taxonomy-terms">
+      <a href="https://example.com/tags/responsive" class="taxonomy-term">#responsive</a>
+      <a href="https://example.com/tags/css" class="taxonomy-term">#css</a>
+      <a href="https://example.com/tags/design" class="taxonomy-term">#design</a>
+    </div>
+  </article>
+</div>
+      </div>
+    </main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>© 2025 Minimalist Web Demo</p>
+      <p>Powered by <a href="https://gohugo.io/">Hugo</a> with <a href="https://github.com/markopolo123/minimalist-web-hugo-theme">Minimalist Web</a> theme</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+</html>
