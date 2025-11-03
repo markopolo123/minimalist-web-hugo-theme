@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Features on Minimalist Web Demo</title>
-    <link>https://example.com/tags/features/</link>
+    <link>/tags/features/</link>
     <description>Recent content in Features on Minimalist Web Demo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/tags/features/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/features/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASCII Art and Diagrams</title>
-      <link>https://example.com/posts/ascii-art-demo/</link>
+      <link>/posts/ascii-art-demo/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/posts/ascii-art-demo/</guid>
+      <guid>/posts/ascii-art-demo/</guid>
       <description>&lt;p&gt;One of the unique features of this theme is first-class support for ASCII art and box-drawing characters.&lt;/p&gt;&#xA;&lt;h2 id=&#34;using-the-box-shortcode&#34;&gt;Using the Box Shortcode&lt;/h2&gt;&#xA;&lt;p&gt;You can create bordered content using the &lt;code&gt;box&lt;/code&gt; shortcode:&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;ascii-box&#34;&gt;&#xA;  &lt;div class=&#34;ascii-box-title&#34;&gt;Important Note&lt;/div&gt;&#xA;This is content inside an ASCII-style box.&#xA;It preserves formatting and adds visual emphasis.&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;using-the-diagram-shortcode&#34;&gt;Using the Diagram Shortcode&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;code&gt;diagram&lt;/code&gt; shortcode preserves whitespace and character alignment:&lt;/p&gt;&#xA;&lt;div class=&#34;ascii-diagram&#34;&gt;&#xA;┌──────────┐       ┌──────────┐&#xA;│  Client  │──────▶│  Server  │&#xA;└──────────┘       └──────────┘&#xA;     │                   │&#xA;     │    Request        │&#xA;     │──────────────────▶│&#xA;     │                   │&#xA;     │    Response       │&#xA;     │◀──────────────────│&#xA;     │                   │&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;system-architecture&#34;&gt;System Architecture&lt;/h2&gt;&#xA;&lt;div class=&#34;ascii-diagram&#34;&gt;&#xA;┌─────────────────────────────────────────┐&#xA;│            Load Balancer                │&#xA;└─────────────┬───────────────────────────┘&#xA;              │&#xA;      ┌───────┼───────┐&#xA;      │       │       │&#xA;      ▼       ▼       ▼&#xA;┌─────────┐ ┌─────────┐ ┌─────────┐&#xA;│  Web    │ │  Web    │ │  Web    │&#xA;│ Server  │ │ Server  │ │ Server  │&#xA;└────┬────┘ └────┬────┘ └────┬────┘&#xA;     │           │           │&#xA;     └───────────┼───────────┘&#xA;                 │&#xA;                 ▼&#xA;         ┌──────────────┐&#xA;         │   Database   │&#xA;         └──────────────┘&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;flow-chart-example&#34;&gt;Flow Chart Example&lt;/h2&gt;&#xA;&lt;div class=&#34;ascii-diagram&#34;&gt;&#xA;         START&#xA;           │&#xA;           ▼&#xA;    ┌─────────────┐&#xA;    │  Read Input │&#xA;    └──────┬──────┘&#xA;           │&#xA;           ▼&#xA;    ┌─────────────┐      YES&#xA;    │  Valid?     │──────────┐&#xA;    └──────┬──────┘          │&#xA;           │ NO               ▼&#xA;           │          ┌──────────────┐&#xA;           │          │   Process    │&#xA;           │          └──────┬───────┘&#xA;           │                 │&#xA;           │                 ▼&#xA;           │          ┌──────────────┐&#xA;           └─────────▶│  Show Error  │&#xA;                      └──────┬───────┘&#xA;                             │&#xA;                             ▼&#xA;                           END&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;&#xA;&lt;p&gt;Tables also maintain the monospace alignment:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dark Mode Support</title>
-      <link>https://example.com/posts/dark-mode/</link>
+      <link>/posts/dark-mode/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/posts/dark-mode/</guid>
+      <guid>/posts/dark-mode/</guid>
       <description>&lt;p&gt;This theme includes automatic dark mode support that respects your system preferences.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;p&gt;The theme uses CSS custom properties and the &lt;code&gt;prefers-color-scheme&lt;/code&gt; media query to automatically switch between light and dark modes based on your operating system or browser settings.&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;ascii-box&#34;&gt;&#xA;  &lt;div class=&#34;ascii-box-title&#34;&gt;Try It Out&lt;/div&gt;&#xA;Change your system&#39;s color scheme preference to see the theme automatically adapt!&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;color-palettes&#34;&gt;Color Palettes&lt;/h2&gt;&#xA;&lt;h3 id=&#34;light-mode&#34;&gt;Light Mode&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Background: &lt;code&gt;#ffffff&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Text: &lt;code&gt;#000000&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Border: &lt;code&gt;#000000&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Accent: &lt;code&gt;#0000ff&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Secondary: &lt;code&gt;#404040&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;dark-mode&#34;&gt;Dark Mode&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Background: &lt;code&gt;#000000&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Text: &lt;code&gt;#c0c0c0&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Border: &lt;code&gt;#808080&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Accent: &lt;code&gt;#00ffff&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Secondary: &lt;code&gt;#909090&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;&#xA;&lt;p&gt;No JavaScript is required! The theme uses pure CSS:&lt;/p&gt;</description>
     </item>
   </channel>
