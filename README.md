@@ -2,6 +2,8 @@
 
 A monospace-first minimalist Hugo theme inspired by [The Monospace Web](https://owickstrom.github.io/the-monospace-web/) by Oskar Wickström.
 
+[Demo site](https://markopolo123.github.io/minimalist-web-hugo-theme/).
+
 ## Features
 
 - **Monospace typography throughout**: Uses monospace fonts for all content, not just code
@@ -16,7 +18,7 @@ A monospace-first minimalist Hugo theme inspired by [The Monospace Web](https://
 ## Demo
 
 See the `exampleSite` directory for a fully working demo with various content examples.
-
+See it deployed [here](https://markopolo123.github.io/minimalist-web-hugo-theme/).
 ## Installation
 
 ### As a Hugo Module
